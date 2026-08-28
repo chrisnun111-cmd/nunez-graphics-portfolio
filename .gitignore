@@ -1,6 +1,10 @@
 # Local dev tooling, not part of the published site
 .claude/
 
+# Windows system files
+desktop.ini
+Thumbs.db
+
 # Raw/original source material, RAW camera files, unused exports
 # (kept locally, not published to the live site or repo)
 source/
