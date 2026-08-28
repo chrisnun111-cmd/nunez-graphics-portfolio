@@ -475,7 +475,8 @@ ul { list-style: none; margin: 0; padding: 0; }
   margin: 0;
 }
 
-.project-desc p {
+.project-desc p,
+.project-images > p {
   font-size: 2.2rem;
   line-height: 1.6;
   margin: 0 0 24px;
@@ -484,8 +485,6 @@ ul { list-style: none; margin: 0; padding: 0; }
 .project-desc p:last-child { margin-bottom: 0; }
 
 .project-images > p {
-  font-size: 2rem;
-  line-height: 1.6;
   margin: 0;
 }
 
@@ -647,9 +646,19 @@ ul { list-style: none; margin: 0; padding: 0; }
     height: 20px;
   }
 
-  .project-desc p {
+  .project-desc p,
+  .project-images > p {
     font-size: 1.2rem;
     margin: 0 0 16px;
+  }
+
+  .project-images > p {
+    margin: 0;
+  }
+
+  .tag {
+    font-size: 1.5rem;
+    margin: 0 0 40px;
   }
 }
 
