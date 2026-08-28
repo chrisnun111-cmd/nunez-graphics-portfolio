@@ -1,0 +1,20 @@
+# Local dev tooling, not part of the published site
+.claude/
+
+# Raw/original source material, RAW camera files, unused exports
+# (kept locally, not published to the live site or repo)
+source/
+
+# Secrets — never commit these
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+secrets.json
+credentials.json
+*_secret*
+*apikey*
+*api_key*
